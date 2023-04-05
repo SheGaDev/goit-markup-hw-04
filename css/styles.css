@@ -345,7 +345,11 @@ img {
 .customers-icon {
     fill: #afb1b8;
 }
-.footer-l{
+.customers-icon:focus,
+.customers-icon:hover {
+    fill: #404BBF
+}
+.footer-l {
     display: flex;
     gap: 120px;
 }
